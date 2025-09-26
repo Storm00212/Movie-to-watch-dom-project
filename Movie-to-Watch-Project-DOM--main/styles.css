@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/theatre.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #444;
+    letter-spacing: 4px;
+}
+
+#wrapper{
+    background-color: #eee;
+    max-width: 960px;
+    margin: 40px auto;
+    border-radius: 6px;
+    padding:20px;
+    border: 3px solid #444;
+}
+
+#page-banner{
+    background-color: #df5b3f;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#movie-list, #add-movie{
+    margin: 30px;
+}
+
+#movie-list ul{
+    list-style: none;
+}
+#movie-list ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    gap: 10px;
+}
+
+#movie-list ul li:hover{
+   border-left: #9361bf 2px solid;
+   background: #f4f4f4;
+}
+
+.delete, .edit{
+    background-color: #df5b3f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background: maroon;
+}
+
+.edit {
+    background: #3f7fdf;
+}
+
+.edit:hover {
+    background: navy;
+}
+
+#add-movie{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-movie input{
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    border-radius: 4px;
+}
+
+#add-movie button{
+    background: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#add-movie button:hover {
+    background: darkgreen;
+}
